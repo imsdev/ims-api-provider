@@ -17,9 +17,10 @@ z/OS Connect EE provides an API toolkit, an Eclipse plugin to install into IBM E
 * <strong>z/OS Connect EE V3/open beta</strong> <br/>
   There are two options to try out this solution:
   * <u>Option 1</u>.  To try out z/OS Connect EE with no cost, installation, or configuration, go to the [IBM Z Trial Program](https://www.ibm.com/systems/z/trials.html) site, look for the z/OS Connect Enterprise Edition box, and register.  A sandbox environment will be prepared for you.  A tutorial is provided in the sandbox based on the IMS phonebook application.
-  * <u>Option 2</u>. [Download the z/OS Connect EE open beta code](https://www-01.ibm.com/marketing/iwm/iwm/web/pick.do?source=swerpsw-p3192-3&lang=en_US) to try out in your own environment. Follow the tutorials for creating a service from the IMS phonebook application and then a REST API for the service to invoke the IMS phonebook application in the z/OS Connect EE documentation:
-      * [Creating an IMS service](https://www.ibm.com/support/knowledgecenter/SS4SVW_beta/com.ibm.zosconnect.doc/scenarios/ims_mobile_tutorial_1.html)
-	  * [Developing a REST API for an IMS service](https://www.ibm.com/support/knowledgecenter/SS4SVW_beta/com.ibm.zosconnect.doc/scenarios/ims_mobile_tutorial_2.html)
+  * <u>Option 2</u>. [Download the z/OS Connect EE open beta code](https://www-01.ibm.com/marketing/iwm/iwm/web/pick.do?source=swerpsw-p3192-3&lang=en_US) to try out in your own environment. Follow the following Quick Start scenarios in the z/OS Connect EE documentation:
+      * [Create a server and connect to IMS](https://www.ibm.com/support/knowledgecenter/SS4SVW_beta/com.ibm.zosconnect.doc/scenarios/ims_configure_connection.html)
+	  * [Create an IMS service using the API toolkit](https://www.ibm.com/support/knowledgecenter/SS4SVW_beta/com.ibm.zosconnect.doc/scenarios/ims_service_at.html)
+	  * [Create an API to invoke the IMS phone book service](https://www.ibm.com/support/knowledgecenter/SS4SVW_beta/com.ibm.zosconnect.doc/scenarios/ims_api_invoke.html)
   
       With option 2, you must download and install the z/OS Connect EE API toolkit V3, as described next.
 
