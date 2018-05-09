@@ -11,7 +11,12 @@ This scenario uses a z/OS Connect EE server to host the REST API and the service
 
 ![flowdiagram](./media/zcee_imsapi_provider.png)
 
-z/OS Connect EE provides an API toolkit, an Eclipse plugin to install into IBM Explorer for z/OS, that lets you create a service from a COBOL copybook or PL/I include, define the request and response service interfaces, and specify how the service can access and interact with IMS.  After a service is created, use the API toolkit to create a REST API from the service.
+z/OS Connect EE provides an API toolkit, an Eclipse plugin to install into IBM Explorer for z/OS, that lets you:
+* Create a service from a COBOL copybook or PL/I include.
+* Define the request and response service interfaces.
+* Specify how the service can access and interact with IMS.  
+
+After a service is created, use the API toolkit to create a REST API from the service.
 
 ## Technology demonstrated
 * <strong>z/OS Connect EE V3/open beta</strong> <br/>
